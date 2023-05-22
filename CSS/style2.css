@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(blanchedalmond , rgb(202, 59, 59))  ;
+}
+.pantalla{
+    text-align:center;
+    background:linear-gradient(blanchedalmond , rgb(202, 59, 59))  ;
+    background-size: auto;
+    padding-top: 450px;
+    padding-left: 500px;
+    margin: auto;
+    position: relative;
+    height: 350px;
+    width: 900px;
+}
+ 
+.Boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    width: 18vh;
+    padding: 50px 80px;
+    
+}
+.verde{
+    background-image: url(https://www.pngkey.com/png/detail/110-1108877_start-button-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 20px 40px;
+    padding-top: 50px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 180vh;
+    padding: 5px 8px;
+    background-image: url(https://www.kindpng.com/picc/m/109-1097063_lego-batman-logo-png-lego-batman-the-videogame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: -350px -480px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}

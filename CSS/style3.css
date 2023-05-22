@@ -1,0 +1,77 @@
+body {
+        text-align:center;
+        background-color: black;
+        padding-top: 370px;
+       
+    }
+
+        .boton{
+            padding: 20px 60px ;
+            white-space: nowrap ;
+            -webkit-border-radius: 5px ;
+            -moz-border-radius: 5px ;
+            border-radius: 100px;
+            text-shadow: 5px 5px rgba(0, 0, 0, 0.2) ;
+            text-align:center ;
+            text-decoration: none ;
+            font-family: 'helvetica Neue', helvetica,sans-serif ;
+            display:inline-block ;
+            color:antiquewhite ;
+          }
+     
+
+     
+       .rojo {
+            background: #ff04c0;
+            border-collapse: collapse;
+            position: absolute ;
+           right: 550px;
+           
+        }
+        .rojo:hover{
+            background-color: rgb(220, 43, 226);
+            box-shadow: 0px 5px 5px 0px;
+            
+        }
+        
+    .amarillo {
+        background: #ff04c0;
+        position: absolute ;
+        left: 300px;
+        
+       
+        
+    }
+    .amarillo:hover {
+        background-color: rgb(220, 43, 226);
+        box-shadow: 0px 5px 5px 0px;
+        
+
+    }
+
+    .blanco{
+        background: #ff04c0;
+        border-collapse: collapse;
+        position: absolute ;
+        right: 300px ;
+    }
+    .blanco:hover{
+       background-color: rgb(220, 43, 226);
+            box-shadow: 0px 5px 5px 0px;
+    }
+
+    #titulo{
+        background: url(web), url(https://decal.mk/wp-content/uploads/2020/06/game-over-transparent.png) ;
+        background-repeat: no-repeat;
+        box-shadow: 0 10px -6px 10px rgba (0,0,0.6) ;
+        border-collapse: collapse;
+        height: 100px;
+        width: 100px;
+        position: absolute ;
+        top:-380px;
+        right: 360px ;
+        bottom: 0;
+        left: px;
+        margin:auto;
+        padding:150px 300px ;
+    }
