@@ -28,6 +28,11 @@ body {
            right: 550px;
            
         }
+        .rojo:active{
+            background: rgb(255, 123, 0) ;
+            box-shadow: 15px 15px 15px 15px #fbff06 ;
+
+        }
         .rojo:hover{
             background-color: rgb(220, 43, 226);
             box-shadow: 0px 5px 5px 0px;

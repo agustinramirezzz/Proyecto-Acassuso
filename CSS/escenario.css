@@ -1,0 +1,21 @@
+body{
+   background: url(../imageness/encabezado2.jpg) no-repeat ;
+}
+
+.scene {
+   margin-top: 100px;
+   padding-top: 100px;
+   background-color: orange ;
+   
+}
+ .h1{
+    font-family: "press start 2p" , cursive ;
+    text-align:center;
+    width: 100%;
+    height: 30px;
+
+ }
+ #carta1{
+   padding-inline: 100;
+   
+ }

@@ -1,47 +1,72 @@
+
 body{
-    background:linear-gradient(blanchedalmond , rgb(202, 59, 59))  ;
-}
-.pantalla{
     text-align:center;
-    background:linear-gradient(blanchedalmond , rgb(202, 59, 59))  ;
-    background-size: auto;
-    padding-top: 450px;
-    padding-left: 500px;
-    margin: auto;
-    position: relative;
-    height: 350px;
-    width: 900px;
+    background: #8fc1ce ;
+    padding-top: 30px;
 }
- 
-.Boton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4vh;
-    width: 18vh;
-    padding: 50px 80px;
+.boton{
+    
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2) ;
+        text-align:center ;
+        text-decoration: none ;
+    font-family: 'helvetica Neue', helvetica,sans-serif ;
+    display:inline-block ;
+    color: #fff; 
+    padding: 15px 30px ;
+    white-space: nowrap ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 5px ;
+    border-radius: 100px;
+    margin: 1px 20px 0px 30px ;
+    -webkit-transition: all 0.2s ease-in-out ;
+    -ms-transition: all 0.2s ease-in-out ;
+    -moz-transition: all 0.2s ease-in-out ;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out ;
+}
+.azul{
+background: #060aff ;
+box-shadow: 5px 5px 0px 0px #0b115e;
+}
+.azul:hover{
+    background: #1892f7da
     
 }
-.verde{
-    background-image: url(https://www.pngkey.com/png/detail/110-1108877_start-button-png.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 20px 40px;
-    padding-top: 50px;
+
+.rojo{
+background: #ff0606 ;
+box-shadow: 5px 5px 0px 0px #af0e0e ;
 }
-.titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40vh;
-    width: 180vh;
-    padding: 5px 8px;
-    background-image: url(https://www.kindpng.com/picc/m/109-1097063_lego-batman-logo-png-lego-batman-the-videogame.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: -350px -480px;
-    padding-top: 50px;
-    margin-bottom: 50px;
+.rojo:hover{
+background:#c91d11 ;
+box-shadow: 5px 5px 0px 0px ;}
+.rojo:active {
+    background: blue ;
+    box-shadow: 15px 15px 15px 15px #ff0606 ;
+
+}
+
+
+#tablero { 
+position:sticky;
+
+}
+#tablero2{
+    position: inherit;
+    
+    
+    
+}
+.class1 {
+    
+    float:left;
+    padding-top: 450px;
+  
+   
+}
+.class2 {
+
+   float:right;
+   padding-top:450px;
+ 
 }
