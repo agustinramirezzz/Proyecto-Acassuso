@@ -67,15 +67,16 @@ header{
     flex-direction: row-reverse;
 }
 a{
-    border:solid ;
-    color:black;
+    
+    color:white;
     font-size: 30px;
     font-family: fantasy;
-    background-color: yellow;
+    background-color: rgb(243, 228, 16);
     padding:15px ;
     text-align: center;
     text-decoration: none;
     right:100px ;
+    border-radius: 10px;
 }
    
    
