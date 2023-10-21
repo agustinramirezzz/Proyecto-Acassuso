@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijera</h1> 
+    </header>
+
+    <main>
+        <p class="instrucciones" id="instrucciones">
+            El primero en llegar a 5 puntos gana.
+        </p>
+        <div class="marcador">
+            <p class="nombre nombre-jugador">Jugador</p>
+            <p class="nombre nombre-computadora">Computadora</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
+            </p>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma"> <!-- id nos va a servir para despues manipularlo desde JS  -->
+            <h2>Elegi tu arma para el proximo turno</h2>
+            <div class="armas"> <!-- debajo todas las armas  -->
+            <button class="arma" id="piedra🪨">🪨</button>  <!-- windows+.  para poner los emojis -->
+            <button class="arma" id="papel🧻">🧻</button >   <!-- utilizamos el id para despues poder seleccionarlos y despues utilizarlo en el js -->
+            <button class="arma" id="tijera✂️">✂️</button >
+            </div>
+        </div>
+        <div class="mensaje" id="mensaje">
+            <p>
+                Usaste <span class="eleccion" id="eleccion-usuario">Papel🧻</span><br> <!-- uso el span para darle un diseño diferente a la palabra "papel" -->
+                Y la computadora uso <span class="eleccion" id="eleccion-computadora">Piedra🪨</span>
+            </p>
+            <p id="gana-punto">¡Ganaste un punto!</p>
+        
+        </div>
+        <button class="btn" id="reinicar">Reiniciar Juego</button>
+
+
+
+    </main>
+
+    
+    <script src="JS/script.js"></script>
+    
+</body>
+</html>
